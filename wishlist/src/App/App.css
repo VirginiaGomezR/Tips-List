@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@100;400&family=Shizuru&display=swap");
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./images/mountains.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #005cc8;
+    font-family: "Bebas Neue", cursive;
+}
+
+.app {
+    width: 800px;
+    margin: auto;
+    max-width: 100%;
+    /*border: 1px solid white;*/
+    padding: 0 2rem 2rem 2rem;
+    margin-top: 2rem;
+    /*background-color: #017b70;*/
+}
+.wish-input {
+    border: 0;
+    border-bottom: 3px dashed #005cc8;
+    padding: 0;
+}
+.wish-input__label {
+    font-weight: 700;
+    color: white;
+    margin: 5px;
+}
+.wish-input__field {
+    width: 100%;
+    border: 0;
+    padding: 1rem;
+    /* font-size: 1.2rem;*/
+    background-color: white;
+}
+.wish-list {
+    list-style: none;
+    padding: 0;
+}
+/*
+.wish-list__item {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+}*/
+.wish-list__item > * + * {
+    margin-left: 1rem;
+}
+.wish-list__item input {
+    width: 2rem;
+    height: 2rem;
+}
+.wish-list__item--done label {
+    text-decoration: line-through;
+}
+.wish-clear {
+    width: 100%;
+    padding: 0.5rem;
+    background: #77787c;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 3px;
+    border-color: white;
+    color: white;
+}

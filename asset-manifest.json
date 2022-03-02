@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Tips-List/static/css/main.15e52358.css",
+    "main.js": "/Tips-List/static/js/main.0d888eb7.js",
+    "static/media/mountains.JPG": "/Tips-List/static/media/mountains.08d9aa6fbab4d01ba3eb.JPG",
+    "index.html": "/Tips-List/index.html",
+    "main.15e52358.css.map": "/Tips-List/static/css/main.15e52358.css.map",
+    "main.0d888eb7.js.map": "/Tips-List/static/js/main.0d888eb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15e52358.css",
+    "static/js/main.0d888eb7.js"
+  ]
+}
